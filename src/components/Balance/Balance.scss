@@ -1,0 +1,28 @@
+.balance {
+    background-color: $clr-softRed;
+    border-radius: 20px;
+    display: grid;
+    grid-template: 20px min-content/ 1fr 1fr;
+    grid-template-areas: 
+        "heading logo"
+        "balance logo";
+    align-items: center;
+    padding: 25px;
+    color: $clr-veryPaleOrange;
+    row-gap: 10px;
+    margin-bottom: 20px;
+}
+
+.balance__heading {
+    grid-area: heading;
+}
+
+.balance__value{
+    grid-area: balance;
+    font-size: 32px;
+}
+
+.balance__logo {
+    grid-area: logo;
+    justify-self: end;
+}

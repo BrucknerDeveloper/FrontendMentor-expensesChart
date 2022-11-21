@@ -1,0 +1,13 @@
+.chart {
+    margin-bottom: 30px;
+}
+
+.chart__container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.chart__divider {
+    border: 1px solid $clr-cream;
+}

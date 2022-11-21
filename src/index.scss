@@ -1,0 +1,26 @@
+//Utilities
+@import "./scss_utilities/variables", "./scss_utilities/resets", "./scss_utilities/components";
+
+//App
+@import "./App" ;
+
+//Balance
+@import "./components/Balance/Balance.scss";
+
+// --- SPENDINGS ---
+//Chart
+@import "./components/Spendings/Chart/Bar.scss";
+
+//Summary
+@import "./components/Spendings/Spendings.scss", "./components/Spendings/Chart/Chart.scss", 
+"./components/Spendings/Summary/Summary.scss";
+
+body {
+  color: $clr-darkBrown;
+  background-color: $clr-cream;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 18px;
+}
